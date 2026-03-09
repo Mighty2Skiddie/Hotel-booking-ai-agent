@@ -10,6 +10,11 @@ pinned: false
 
 # Hotel Booking AI Agent
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/spaces/ghost027/Hotel-booking-ai-agent)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-black?logo=github)](https://github.com/Mighty2Skiddie/Hotel-booking-ai-agent)
+
+> **Live Demo:** [ghost027-hotel-booking-ai-agent.hf.space](https://ghost027-hotel-booking-ai-agent.hf.space)
+
 
 An intelligent, conversational hotel booking assistant powered by LangGraph, OpenAI GPT-4o-mini, and Redis. The agent understands natural language, orchestrates tools dynamically, maintains multi-turn context, and caches API results for fast responses.
 
