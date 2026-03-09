@@ -1,4 +1,15 @@
+---
+title: Hotel Booking AI Agent
+emoji: 🏨
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Hotel Booking AI Agent
+
 
 An intelligent, conversational hotel booking assistant powered by LangGraph, OpenAI GPT-4o-mini, and Redis. The agent understands natural language, orchestrates tools dynamically, maintains multi-turn context, and caches API results for fast responses.
 
