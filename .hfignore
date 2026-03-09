@@ -1,0 +1,34 @@
+# virtual environments
+myvenv/
+venv/
+.venv/
+env/
+
+# secrets — never upload this
+.env
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# chainlit session cache
+.chainlit/
+
+# render config — not needed on HF
+render.yaml
+
+# dev/test files
+test_*.py
+test_*.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
