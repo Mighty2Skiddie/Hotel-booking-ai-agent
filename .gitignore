@@ -1,0 +1,38 @@
+# Environment
+.env
+.venv/
+venv/
+myvenv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Chainlit
+.chainlit/
+
+# Testing / Temp
+test_*.py
+test_*.txt
+*.log
+
+# Assignment PDF
+Assignment_*.pdf

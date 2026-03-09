@@ -1,0 +1,383 @@
+{
+  "cities": {
+    "jaipur": {
+      "hotels": [
+        {
+          "hotel_id": "HTL001",
+          "name": "Maharani Palace",
+          "star_rating": 5,
+          "location": "Near Hawa Mahal, Old City",
+          "base_price": 8500,
+          "currency": "INR",
+          "description": "A luxurious heritage hotel blending royal Rajasthani architecture with modern comforts, steps away from the iconic Hawa Mahal.",
+          "rooms": [
+            {
+              "room_type": "Deluxe Room",
+              "max_available": 5,
+              "pricing": {
+                "room_only": 8500,
+                "with_breakfast": 9500,
+                "with_all_meals": 12000
+              },
+              "max_guests": 2,
+              "bed_type": "King",
+              "size_sqft": 400
+            },
+            {
+              "room_type": "Royal Suite",
+              "max_available": 2,
+              "pricing": {
+                "room_only": 15000,
+                "with_breakfast": 16500,
+                "with_all_meals": 19500
+              },
+              "max_guests": 3,
+              "bed_type": "King",
+              "size_sqft": 750
+            }
+          ],
+          "amenities": [
+            "Swimming Pool",
+            "Spa & Wellness Center",
+            "Fine Dining Restaurant",
+            "24/7 Room Service",
+            "Free Wi-Fi",
+            "Valet Parking",
+            "Airport Shuttle",
+            "Fitness Center",
+            "Business Center",
+            "Heritage Walking Tour"
+          ],
+          "policies": {
+            "check_in": "2:00 PM",
+            "check_out": "11:00 AM",
+            "cancellation": "Free cancellation up to 48 hours before check-in. After that, one night's charge applies.",
+            "pets": "Not allowed",
+            "extra_bed": "Available on request at INR 1500 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "Hawa Mahal", "distance": "200m"},
+            {"name": "City Palace", "distance": "800m"},
+            {"name": "Jantar Mantar", "distance": "1 km"},
+            {"name": "Johari Bazaar", "distance": "500m"}
+          ]
+        },
+        {
+          "hotel_id": "HTL002",
+          "name": "Royal Haveli",
+          "star_rating": 4,
+          "location": "MI Road, Central Jaipur",
+          "base_price": 5200,
+          "currency": "INR",
+          "description": "A charming boutique hotel on Jaipur's bustling MI Road, offering authentic Rajasthani hospitality with contemporary amenities.",
+          "rooms": [
+            {
+              "room_type": "Standard Room",
+              "max_available": 8,
+              "pricing": {
+                "room_only": 5200,
+                "with_breakfast": 5800,
+                "with_all_meals": 7200
+              },
+              "max_guests": 2,
+              "bed_type": "Queen",
+              "size_sqft": 300
+            },
+            {
+              "room_type": "Premium Room",
+              "max_available": 4,
+              "pricing": {
+                "room_only": 7000,
+                "with_breakfast": 7800,
+                "with_all_meals": 9500
+              },
+              "max_guests": 2,
+              "bed_type": "King",
+              "size_sqft": 420
+            },
+            {
+              "room_type": "Haveli Suite",
+              "max_available": 1,
+              "pricing": {
+                "room_only": 11000,
+                "with_breakfast": 12000,
+                "with_all_meals": 14500
+              },
+              "max_guests": 3,
+              "bed_type": "King",
+              "size_sqft": 600
+            }
+          ],
+          "amenities": [
+            "Rooftop Restaurant",
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "Ayurvedic Spa",
+            "Laundry Service",
+            "24/7 Front Desk",
+            "Travel Desk",
+            "Complimentary Parking",
+            "Cultural Evening Shows"
+          ],
+          "policies": {
+            "check_in": "1:00 PM",
+            "check_out": "11:00 AM",
+            "cancellation": "Free cancellation up to 24 hours before check-in. Late cancellation incurs 50% charge for first night.",
+            "pets": "Small pets allowed with prior approval (INR 500/night surcharge)",
+            "extra_bed": "Available at INR 1000 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "Albert Hall Museum", "distance": "1.2 km"},
+            {"name": "Birla Mandir", "distance": "2 km"},
+            {"name": "Ram Niwas Garden", "distance": "1.5 km"},
+            {"name": "Raj Mandir Cinema", "distance": "600m"}
+          ]
+        },
+        {
+          "hotel_id": "HTL003",
+          "name": "Pink City Resort",
+          "star_rating": 3,
+          "location": "Tonk Road, South Jaipur",
+          "base_price": 3200,
+          "currency": "INR",
+          "description": "A comfortable and affordable resort ideal for families and budget-conscious travelers, featuring spacious gardens and a relaxed atmosphere.",
+          "rooms": [
+            {
+              "room_type": "Standard Room",
+              "max_available": 12,
+              "pricing": {
+                "room_only": 3200,
+                "with_breakfast": 3700,
+                "with_all_meals": 4800
+              },
+              "max_guests": 2,
+              "bed_type": "Double",
+              "size_sqft": 250
+            },
+            {
+              "room_type": "Family Room",
+              "max_available": 4,
+              "pricing": {
+                "room_only": 4500,
+                "with_breakfast": 5200,
+                "with_all_meals": 6800
+              },
+              "max_guests": 4,
+              "bed_type": "Twin + Sofa Bed",
+              "size_sqft": 450
+            }
+          ],
+          "amenities": [
+            "Garden & Lawn Area",
+            "Multi-Cuisine Restaurant",
+            "Free Wi-Fi",
+            "Children's Play Area",
+            "Free Parking",
+            "Laundry Service",
+            "24/7 Front Desk",
+            "Outdoor Swimming Pool",
+            "Game Room"
+          ],
+          "policies": {
+            "check_in": "12:00 PM",
+            "check_out": "10:00 AM",
+            "cancellation": "Free cancellation up to 12 hours before check-in. No-shows are charged full first night.",
+            "pets": "Not allowed",
+            "extra_bed": "Available at INR 800 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "Jaipur Airport", "distance": "5 km"},
+            {"name": "World Trade Park", "distance": "3 km"},
+            {"name": "Chokhi Dhani", "distance": "8 km"},
+            {"name": "Jawahar Kala Kendra", "distance": "4 km"}
+          ]
+        }
+      ]
+    },
+    "udaipur": {
+      "hotels": [
+        {
+          "hotel_id": "HTL004",
+          "name": "Lake View Grand",
+          "star_rating": 5,
+          "location": "Lake Pichola Waterfront",
+          "base_price": 12000,
+          "currency": "INR",
+          "description": "An opulent lakeside retreat overlooking the shimmering Lake Pichola, offering world-class luxury in the Venice of the East.",
+          "rooms": [
+            {
+              "room_type": "Lake View Room",
+              "max_available": 6,
+              "pricing": {
+                "room_only": 12000,
+                "with_breakfast": 13500,
+                "with_all_meals": 16000
+              },
+              "max_guests": 2,
+              "bed_type": "King",
+              "size_sqft": 450
+            },
+            {
+              "room_type": "Presidential Suite",
+              "max_available": 1,
+              "pricing": {
+                "room_only": 25000,
+                "with_breakfast": 27000,
+                "with_all_meals": 31000
+              },
+              "max_guests": 4,
+              "bed_type": "King + Lounge",
+              "size_sqft": 1100
+            }
+          ],
+          "amenities": [
+            "Private Lake Access",
+            "Infinity Pool",
+            "Luxury Spa",
+            "Gourmet Restaurant",
+            "Boat Rides",
+            "Free Wi-Fi",
+            "Butler Service",
+            "Helipad",
+            "Yoga Pavilion",
+            "Art Gallery"
+          ],
+          "policies": {
+            "check_in": "3:00 PM",
+            "check_out": "12:00 PM",
+            "cancellation": "Free cancellation up to 72 hours before check-in. Within 72 hours, full first night is charged.",
+            "pets": "Not allowed",
+            "extra_bed": "Available at INR 2500 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "City Palace Udaipur", "distance": "500m"},
+            {"name": "Jag Mandir", "distance": "1 km (boat)"},
+            {"name": "Bagore Ki Haveli", "distance": "300m"},
+            {"name": "Saheliyon Ki Bari", "distance": "2 km"}
+          ]
+        },
+        {
+          "hotel_id": "HTL005",
+          "name": "Heritage Inn Udaipur",
+          "star_rating": 3,
+          "location": "Fateh Sagar Road",
+          "base_price": 3800,
+          "currency": "INR",
+          "description": "A warm and welcoming heritage inn near Fateh Sagar Lake, perfect for travelers seeking comfort without breaking the bank.",
+          "rooms": [
+            {
+              "room_type": "Classic Room",
+              "max_available": 10,
+              "pricing": {
+                "room_only": 3800,
+                "with_breakfast": 4300,
+                "with_all_meals": 5500
+              },
+              "max_guests": 2,
+              "bed_type": "Queen",
+              "size_sqft": 280
+            },
+            {
+              "room_type": "Deluxe Room",
+              "max_available": 3,
+              "pricing": {
+                "room_only": 5500,
+                "with_breakfast": 6200,
+                "with_all_meals": 7800
+              },
+              "max_guests": 3,
+              "bed_type": "King",
+              "size_sqft": 380
+            }
+          ],
+          "amenities": [
+            "Terrace Restaurant",
+            "Free Wi-Fi",
+            "Bicycle Rentals",
+            "Laundry Service",
+            "Travel Desk",
+            "Free Parking",
+            "Garden Seating",
+            "Library Corner"
+          ],
+          "policies": {
+            "check_in": "1:00 PM",
+            "check_out": "11:00 AM",
+            "cancellation": "Free cancellation up to 24 hours before check-in. Late cancellation charged at 50%.",
+            "pets": "Allowed with prior approval",
+            "extra_bed": "Available at INR 700 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "Fateh Sagar Lake", "distance": "400m"},
+            {"name": "Nehru Garden", "distance": "1 km"},
+            {"name": "Moti Magri", "distance": "1.5 km"},
+            {"name": "Sukhadia Circle", "distance": "800m"}
+          ]
+        }
+      ]
+    },
+    "goa": {
+      "hotels": [
+        {
+          "hotel_id": "HTL006",
+          "name": "Beach Paradise Resort",
+          "star_rating": 4,
+          "location": "Calangute Beach, North Goa",
+          "base_price": 6500,
+          "currency": "INR",
+          "description": "A vibrant beachfront resort on Calangute Beach, combining sun, sand, and luxury for the perfect Goa getaway.",
+          "rooms": [
+            {
+              "room_type": "Sea View Room",
+              "max_available": 7,
+              "pricing": {
+                "room_only": 6500,
+                "with_breakfast": 7200,
+                "with_all_meals": 9000
+              },
+              "max_guests": 2,
+              "bed_type": "King",
+              "size_sqft": 350
+            },
+            {
+              "room_type": "Beach Cottage",
+              "max_available": 3,
+              "pricing": {
+                "room_only": 9000,
+                "with_breakfast": 10000,
+                "with_all_meals": 12500
+              },
+              "max_guests": 3,
+              "bed_type": "King + Daybed",
+              "size_sqft": 500
+            }
+          ],
+          "amenities": [
+            "Private Beach Access",
+            "Beachfront Pool",
+            "Water Sports Desk",
+            "Beach Bar & Shack",
+            "Spa & Massage",
+            "Free Wi-Fi",
+            "Scooter Rentals",
+            "Live Music Evenings",
+            "Bonfire Nights"
+          ],
+          "policies": {
+            "check_in": "2:00 PM",
+            "check_out": "11:00 AM",
+            "cancellation": "Free cancellation up to 48 hours before check-in. Peak season (Dec-Jan) cancellations non-refundable within 7 days.",
+            "pets": "Not allowed",
+            "extra_bed": "Available at INR 1200 per night"
+          },
+          "nearby_landmarks": [
+            {"name": "Calangute Beach", "distance": "On-site"},
+            {"name": "Baga Beach", "distance": "2 km"},
+            {"name": "Fort Aguada", "distance": "5 km"},
+            {"name": "Saturday Night Market", "distance": "8 km"}
+          ]
+        }
+      ]
+    }
+  }
+}
