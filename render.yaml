@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: hotel-booking-ai-agent
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "chainlit run app.py --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: hotel-booking-cache
+          property: connectionString
+
+  - type: redis
+    name: hotel-booking-cache
+    plan: free
+    maxmemoryPolicy: allkeys-lru
