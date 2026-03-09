@@ -17,3 +17,5 @@ services:
     name: hotel-booking-cache
     plan: free
     maxmemoryPolicy: allkeys-lru
+    ipAllowList: []
+
