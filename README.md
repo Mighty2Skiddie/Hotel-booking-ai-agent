@@ -12,15 +12,25 @@ An intelligent, conversational hotel booking assistant powered by LangGraph, Ope
 
 ## Architecture
 
-```
-User -> Chainlit UI -> Agent Controller -> LangGraph Workflow
-                                              |
-                        +---------------------+--------------------+
-                        |                     |                    |
-                  Intent Detection      Tool Execution      Response Generation
-                        |                     |
-                        v                     v
-                  Conditional Edge      Redis Cache -> Mock API
+```mermaid
+flowchart TD
+    A["User (Chainlit UI)"] --> B["Agent Controller"]
+    B --> C["LangGraph Workflow"]
+    C --> D["Intent Detection (OpenAI LLM)"]
+
+    D -->|search_hotels| E["search_hotels Node"]
+    D -->|check_availability| F["check_availability Node"]
+    D -->|get_hotel_details| G["get_hotel_details Node"]
+    D -->|general_query| H["Response Generation (OpenAI LLM)"]
+
+    E -->|cache-first| R["Redis Cache"]
+    F -->|cache-first| R
+    G -->|cache-first| R
+    R -->|miss| M["Mock Hotel API"]
+
+    E --> H
+    F --> H
+    G --> H
 ```
 
 ### LangGraph Workflow
